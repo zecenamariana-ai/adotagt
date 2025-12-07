@@ -1,0 +1,8 @@
+GET /api/v1/mascotas
+Devuelve lista de mascotas disponibles para adopción.
+
+POST /api/v1/solicitudes
+Crea una solicitud de adopción para una mascota específica.
+
+PATCH /api/v1/mascotas/:id_mascota/estado
+Actualiza el estado de una mascota (por ejemplo, de disponible a adoptado).
